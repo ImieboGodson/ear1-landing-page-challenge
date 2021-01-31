@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background: #FAFAFA;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navlinks */
+.navlinks-wrapper {
+    width: 35%;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks li a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.navlinks li .navbar-btn {
+    padding: 20px 50px;
+    color: #ffffff;
+    background: #00BF69;
+    border-radius: 10px;
+}
+
+/* Header */
+.header {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.hero-text {
+    margin-bottom: 30px;
+}
+
+.hero-text h1 {
+    color: #222222;
+}
+
+.subtext {
+    width: 82%;
+}
+
+.subtext p {
+    line-height: 26px;
+    color: #4F4F4F;
+}
+
+.header .download-btn-wrapper {
+    padding: 20px 0;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.header .download-btn {
+    background: #222222;
+}
+
+.hero-stats {
+    margin-top: 50px;
+    width: 92%;
+    display: flex;
+}
+
+.stats-numbers h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #222222;
+}
+
+.stats-numbers p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+
+hr {
+    margin: 0 30px;
+    width: 5px;
+    background-color: #999999;
+}
+
+.stats-details p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #4F4F4F;
+}
+
+
+/* Audiences */
+.audiences .section-text-wrapper {
+    width: 85%;
+}
+
+.audiences .right-col {
+    display: flex;
+    align-items: center;
+}
+
+/* Influencers */
+.influencers .left-col {
+    display: flex;
+    align-items: center;
+}
+
+.influencers .section-text-wrapper {
+    width: 85%;
+}
+
+/* Download Page */
+.download-page-wrapper {
+    margin-bottom: 150px;
+    padding: 60px 0;
+    background: #222222;
+    border-radius: 10px;
+}
+
+.download-page-content-wrapper {
+    margin: auto;
+    width: 60%;
+}
+
+.download-page .section-text-wrapper {
+    padding: 20px 50px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.download-page .large-text {
+    color: #ffffff;
+}
+
+.download-page .download-btn-wrapper {
+    padding: 20px 65px;
+}
+
+.download-page .download-btn {
+    background: #00BF69;
+}
+
+.download-page .download-btn-wrapper {
+    justify-content: space-around;
+}
+
+/* Footer */
+.footer {
+    margin-top: 100px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #999999;
+}
+
+.contact-div {
+    margin-right: 80px;
+    width: 300px;
+}
+
+.contact-text-wrapper {
+    padding: 10px 0;
+}
+
+.social-media-btn-wrapper {
+    padding: 20px 0;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #EEEEEE;
+}
+
+.social-media-btn svg {
+    margin: auto;
+    width: 22px;
+    height: 22px;
+    color: #000000;
+}
+
+.footer-navlinks {
+    padding: 15px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-wrapper p {
+    margin-bottom: 10px;
+}
+
+.links li {
+    padding: 5px 0;
+}
+
+.links li a {
+    color: #4F4F4F;
+}
+
+
+
+/* Utilities */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-grid {
+    margin-bottom: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Texts */
+.extra-large-text {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 80px;
+}
+
+.large-text {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.bold-small-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.small-text {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/* Anchor tag */
+a {
+    text-decoration: none;
+}
+
+/* List tag */
+li{
+    list-style: none;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    margin-right: 5px;
+}
+
+.logo .logo-text{
+    color: #00070F;
+}
+
+/* Download Button */
+.download-btn-wrapper {
+    display: flex;
+}
+
+.download-btn {
+    padding: 13px 25px;
+    display: flex;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.download-btn svg {
+    margin-right: 20px;
+}
+
+.btn-text-wrapper .btn-text {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.btn-text-wrapper span {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+/* Section Text Arrangement: For Audiences and Influencers */
+.section-text-wrapper {
+    margin: auto;
+    height: auto;
+}
+
+.section-headertext-wrapper p {
+    font-size: 18px;
+    color: #00BF69;
+}
+
+.section-text-wrapper h2 {
+    color: #222222;
+}
+
+.summary-text-wrapper p,
+.feature-details p {
+    color: #4F4F4F;
+}
+
+.features-wrapper {
+    width: 100%;
+}
+
+.top-text {
+    margin-bottom: 30px;
+    color: #222222;
+}
+
+.section-headertext-wrapper h2,
+.section-headertext-wrapper p,
+.summary-text {
+    margin-bottom: 20px;
+}
+
+.features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    width: 30%;
+}
+
+.feature svg {
+    margin-bottom: 8px;
+    width: 22px;
+    height: 22px;
+    color: #00BF69;
+}
+
+.feature-title {
+    margin-bottom: 10px;
+}
+
+.feature-title p {
+    color: #222222;
+}
+
+/* Big Images */
+.big-image-wrapper {
+    width: 100%;
+}
+
+.big-image-wrapper img {
+    width: 100%;
+}
