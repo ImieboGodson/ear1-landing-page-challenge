@@ -1,11 +1,126 @@
-@media (max-width: 1200) {
+@media (max-width: 1100px) {
+    /* Texts */
+    .extra-large-text {
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 56px;
+    }
+
+    .large-text {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    /* Header */
+    .hero-text {
+        margin-bottom: 20px;
+    }
+
+    .header .download-btn-wrapper {
+        padding: 10px 0;
+    }
+
+    .hero-stats {
+        margin-top: 40px;
+        width: 92%;
+        display: flex;
+    }
+
+    /* Download Button */
+    .download-btn {
+        padding: 10px 15px;
+    }
+
+    .download-btn svg {
+        margin-right: 5px;
+    }
 
 }
 
-@media (max-width: 900) {
+@media (max-width: 800px) {
 
 }
 
-@media (max-width: 500) {
+@media (max-width: 600px) {
+    /* Texts */
+    .large-text {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .bold-small-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .small-text {
+        font-size: 14px;
+        line-height: 26px;
+    }
     
+    /* Navbar */
+    .navbar {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .toggle-btn {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .navlinks-wrapper {
+        display: none;
+    }
+
+
+    /* Header */
+    .subtext {
+        width: 100%;
+    }
+    
+    .subtext p {
+        line-height: 26px;
+        color: #4F4F4F;
+    }
+    
+    .header .download-btn-wrapper {
+        padding: 20px 0;
+        margin: auto;
+        width: 70%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hero-stats {
+        margin: 50px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    hr {
+        margin: 30px 0;
+        height: 2px;
+        width: 30%;
+    }
+
+    /* Utilities */
+    .main-grid {
+        margin-bottom: 150px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .left-col,
+    .right-col{
+        text-align: center;
+    }
+
 }
