@@ -9,20 +9,25 @@
 body {
     font-family: 'Montserrat';
     background: #FAFAFA;
+    padding: 20px;
 }
 
 /* Navbar */
 .navbar {
     margin-bottom: 50px;
-    padding: 20px 0;
+    padding: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.toggle-btn {
+    display: none;
+}
+
 /* Navlinks */
 .navlinks-wrapper {
-    width: 35%;
+    min-width: 400px;
 }
 
 .navlinks {
