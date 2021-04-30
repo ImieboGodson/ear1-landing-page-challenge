@@ -172,7 +172,7 @@
 
     /* Audiences */
     .audiences-main-grid {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         text-align: center;
         /* column-gap: 60px; */
         grid-template-columns: 1fr;
