@@ -1,4 +1,4 @@
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
     /* Texts */
     .extra-large-text {
         font-weight: bold;
@@ -38,11 +38,12 @@
 
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 00px) {
 
-}
+} */
 
 @media (max-width: 600px) {
+    /* Utilities */
     /* Texts */
     .large-text {
         font-weight: bold;
@@ -69,15 +70,72 @@
     
     .toggle-btn {
         display: inline-block;
-        margin-right: 50px;
+        margin-right: 80px;
     }
 
     .navlinks-wrapper {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 10px 0;
+        top: 60px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: #fafafaee;
         display: none;
+    }
+
+    .navlinks-wrapper.active  {
+        display: block;
+    }
+
+    .navlinks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navlinks li {
+        margin: 20px auto;
+    }
+
+
+
+    /* Section Text Arrangement: For Audiences and Influencers */
+    .features {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feature {
+        margin-bottom: 20px;
+        width: 100%;
     }
 
 
     /* Header */
+    .header-main-grid {
+        margin-bottom: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .header-main-grid .grid-item-1,
+    .header-main-grid .grid-item-3,
+    .header-main-grid .grid-item-5 {
+        text-align: center;
+    }
+
+    .header-main-grid .grid-item-2 {
+        margin-top: 30px;
+        order: 4;
+    }
+
+    .header-main-grid .grid-item-5 {
+        order: 5;
+    }
+
     .subtext {
         width: 100%;
     }
@@ -111,16 +169,134 @@
         width: 30%;
     }
 
-    /* Utilities */
-    .main-grid {
-        margin-bottom: 150px;
-        display: grid;
+
+    /* Audiences */
+    .audiences-main-grid {
+        margin-bottom: 20px;
+        text-align: center;
+        /* column-gap: 60px; */
         grid-template-columns: 1fr;
     }
 
-    .left-col,
-    .right-col{
+    .audiences-main-grid .grid-item-1 {
+        margin: 50px 0;
+        order: 3;
+    }
+    
+    .audiences-main-grid .grid-item-2 {
+        margin: 0 auto;
+    }
+    
+    .audiences-main-grid .grid-item-3 {
+        margin: 0 auto;
+        width: 85%;
         text-align: center;
+    }
+    
+    .audiences-main-grid .grid-item-4 {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        order: 4;
+    }
+    
+
+    /* Influencers */
+    .influencers-main-grid {
+        margin-bottom: 40px;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .influencers-main-grid .grid-item-1 {
+        margin: 0 auto;
+    }
+
+    .influencers-main-grid .grid-item-2 {
+        margin: 50px 0;
+        order: 3;
+    }
+
+    .influencers-main-grid .grid-item-3 {
+        margin: 0 auto;
+    }
+
+    .influencers-main-grid .grid-item-4 {
+        order: 4;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    /* Download section */
+    .download-page-wrapper {
+        margin-bottom: 100px;
+    }
+    .download-page-content-wrapper {
+        width: 100%;
+    }
+
+    .download-page .section-text-wrapper {
+        padding: 20px 30px;
+        margin-bottom: 40px;
+    }
+
+    .download-page .download-btn-wrapper {
+        padding: 0 40px;
+        flex-direction: column;
+    }
+
+    .download-page .download-btn {
+        margin-bottom: 40px;
+    }
+
+    .download-page .download-btn:last-child {
+        margin-bottom: 0;
+    }
+
+
+    /* Footer */
+    .footer {
+        margin-top: 100px;
+        padding: 50px 0;
+        text-align: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-top: 1px solid #999999;
+    }
+
+    .contact-div {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .footer .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media-btn-wrapper {
+        padding: 20px 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .social-media-btn {
+        margin: 0 10px;
+    }
+
+    .footer-navlinks {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links-wrapper {
+        margin-bottom: 50px;
+    }
+
+    .links-wrapper:last-child {
+        margin-bottom: 0;
     }
 
 }
